@@ -4,6 +4,9 @@
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
   "license": "0BSD",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -14,12 +17,23 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "gatsby": "^4.7.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "gatsby": "^5.14.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "prettier": "^2.5.1"
+  },
+  "overrides": {
+    "lodash": "^4.18.1",
+    "tmp": "^0.2.7",
+    "serialize-javascript": "^7.0.7",
+    "immutable": "3.8.3",
+    "cookie": "^0.7.2",
+    "path-to-regexp": "0.1.13",
+    "webpack": "^5.108.4",
+    "uuid": "^11.1.1",
+    "@parcel/reporter-dev-server": "^2.16.4"
   },
   "repository": {
     "type": "git",
